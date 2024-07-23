@@ -11,16 +11,10 @@
 #include <stdio.h>
 
 int main(void) {
-int dogs = 0;
-puts("How many dogs you have?(input a num): ");
-scanf("%d", &dogs);
-if (dogs == 1) {
-    printf("\nGreat! You have one dog.\n");
-} else if (dogs > 1) {
-    printf("\nGreat! You have %d dogs.\n", dogs);
-} else {
-    printf("\nSo sad :(( You don't have a dog.\n");
-}
-
-return 0;
+  int feets, fathoms;
+  fathoms = 2;
+  feets = fathoms * 6;
+  printf("In %d fathoms %d feets!\n", fathoms, feets);
+  printf("Yes %d feets!\n", fathoms * 6);
+  return 0;
 }
