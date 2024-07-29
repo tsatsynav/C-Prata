@@ -1,4 +1,4 @@
-// C Primer Plus (6th edition). Stephen Prata. Listing 2.2.
+// C Primer Plus (6th edition). Stephen Prata. Chapter 2 task 3.
 // Fedora Linux 40 (Workstation Edition).
 // Visual Studio Code
 // gcc (GCC) 14.1.1 20240701 (Red Hat 14.1.1-7)
@@ -11,10 +11,11 @@
 #include <stdio.h>
 
 int main(void) {
-  int feets, fathoms;
-  fathoms = 2;
-  feets = fathoms * 6;
-  printf("In %d fathoms %d feets!\n", fathoms, feets);
-  printf("Yes %d feets!\n", fathoms * 6);
+  int toes = 10;
+
+  printf("Имеется число: %d.\n", toes);
+  printf("Удвоенное значение числа %d: %d.\n", toes, toes * 2);
+  printf("Квадрат числа %d: %d.\n", toes, toes * toes);
+
   return 0;
 }

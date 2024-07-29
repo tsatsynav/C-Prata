@@ -1,4 +1,4 @@
-// C Primer Plus (6th edition). Stephen Prata. Listing 1.1.
+// C Primer Plus (6th edition). Stephen Prata. Listing 2.1.
 // Fedora Linux 40 (Workstation Edition).
 // Visual Studio Code
 // gcc (GCC) 14.1.1 20240701 (Red Hat 14.1.1-7)
